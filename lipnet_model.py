@@ -36,7 +36,7 @@ def lipnet_model(vocab_size):
 
 
 def scheduler(epoch, lr):
-    if epoch < 10:
+    if epoch < 5:
         return lr
     else:
         return lr * tf.math.exp(-0.1)
