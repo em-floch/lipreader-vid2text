@@ -13,6 +13,9 @@ The dataset is directly sourced from Google Drive, courtesy of Nikolas Renotte's
 The primary input comprises video recordings, each capturing a subject articulating a sequence of no more than ten words, resembling chess move notations.
 These videos are segmented into 75 distinct frames. Each frame is cropped to focus solely on the dynamic aspects of the face, particularly the mouth.
 Additionally, standardization is applied to these frames to accentuate the features of the moving mouth.
+This is an example of a frame from the dataset:
+
+![img.png](img.png)
 
 Included in the dataset are alignment files that detail the spoken words. Below is a sample structure of an alignment file:
 
